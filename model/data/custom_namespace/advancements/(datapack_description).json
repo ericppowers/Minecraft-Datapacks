@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "title": {
+            "text": "Stone to Gravel",
+            "color": "black",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Stone will turn to gravel when iron golems or ravagers walk on it.",
+            "color": "blue",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "custom_namespace:(root).json",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

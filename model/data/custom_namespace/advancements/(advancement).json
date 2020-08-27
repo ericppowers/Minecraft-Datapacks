@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "title": {
+            "text": "Ocean Monument",
+            "color": "black",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Find an ocean monument.",
+            "color": "blue",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "goal"
+    },
+    "parent": "custom_namespace:(root).json",
+    "criteria": {
+        "locate": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "monument"
+                }
+            }
+        }
+    }
+}

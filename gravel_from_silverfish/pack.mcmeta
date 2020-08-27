@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "description": "Silverfish now have a chance to drop gravel, which is increased by the Looting enchantment."
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "description": "Example description. Pack format needs to be 6 for 1.16 and above."
+    }
+}

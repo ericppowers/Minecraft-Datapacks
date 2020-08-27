@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:polished_blackstone",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:gilded_blackstone",
+    "minecraft:gold_block",
+    "minecraft:spawner",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_block",
+    "minecraft:bone_block",
+    "#minecraft:soul_fire_base_blocks",
+    "#convenience:containers",
+    "#convenience:redstone_containers",
+    "#minecraft:gold_ores"
+  ]
+}
