@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "convenience:chipped_anvil"
+    ]
+  },
+  "criteria": {
+    "has_chipped_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chipped_anvil"
+          }
+        ]
+      }
+    },
+    "has_damaged_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:damaged_anvil"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "convenience:chipped_anvil"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chipped_anvil",
+      "has_damaged_anvil",
+      "has_the_recipe"
+    ]
+  ]
+}

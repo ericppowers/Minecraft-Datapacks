@@ -9,7 +9,7 @@
       "item": "minecraft:piston"
     },
     "S": {
-      "item": "minecraft:sticky_crafting_materials"
+      "tag": "convenience:sticky_crafting_materials"
     }
   },
   "result": {

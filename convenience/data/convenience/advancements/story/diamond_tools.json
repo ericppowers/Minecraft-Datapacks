@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:story/mine_diamond",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "title": {
+        "text": "Diamond Pickaxe"
+      },
+      "description": {
+        "translate": "Obtain a diamond pickaxe."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "diamond_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:diamond_pickaxe"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "diamond_pickaxe"
+      ]
+    ]
+  }

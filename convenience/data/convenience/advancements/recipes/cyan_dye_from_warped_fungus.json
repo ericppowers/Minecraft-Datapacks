@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "convenience:cyan_dye_from_warped_fungus"
+    ]
+  },
+  "criteria": {
+    "has_warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:warped_fungus"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "convenience:cyan_dye_from_warped_fungus"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_fungus",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "convenience:lime_dye_from_scute"
+    ]
+  },
+  "criteria": {
+    "has_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:scute"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "convenience:lime_dye_from_scute"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_scute",
+      "has_the_recipe"
+    ]
+  ]
+}

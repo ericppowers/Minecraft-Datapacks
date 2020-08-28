@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar"
+    },
+    "title": {
+      "text": "Sugar Cane"
+    },
+    "description": {
+      "text": "Plant sugar cane."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sugar_cane": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sugar_cane"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sugar_cane"
+    ]
+  ]
+}

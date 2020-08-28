@@ -1,0 +1,63 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "convenience:leather_from_smelting",
+        "convenience:leather_from_smoking"
+      ]
+    },
+    "criteria": {
+      "has_rotten_flesh": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:rotten_flesh"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "convenience:leather_from_smelting"
+        }
+      },
+      "killed_zombie": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "type": "minecraft:zombie"
+              },
+              "entity": "this"
+            }
+          ]
+        }
+      },
+      "killed_husk": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "type": "minecraft:husk"
+              },
+              "entity": "this"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_cobblestone",
+        "has_the_recipe",
+        "killed_zombie",
+        "killed_husk"
+      ]
+    ]
+  }

@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "convenience:white_wool",
+        "convenience:gray_wool",
+        "convenience:light_gray_wool",
+        "convenience:black_wool",
+        "convenience:blue_wool",
+        "convenience:red_wool",
+        "convenience:green_wool",
+        "convenience:yellow_wool",
+        "convenience:light_blue_wool",
+        "convenience:lime_wool",
+        "convenience:orange_wool",
+        "convenience:cyan_wool",
+        "convenience:brown_wool",
+        "convenience:pink_wool",
+        "convenience:purple_wool",
+        "convenience:magenta_wool"
+      ]
+    },
+    "criteria": {
+      "has_wool": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "minecraft:wool"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_wool"
+      ]
+    ]
+  }

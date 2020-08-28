@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "convenience:light_gray_dye_from_phantom_membrane"
+    ]
+  },
+  "criteria": {
+    "has_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "convenience:light_gray_dye_from_phantom_membrane"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_phantom_membrane",
+      "has_the_recipe"
+    ]
+  ]
+}

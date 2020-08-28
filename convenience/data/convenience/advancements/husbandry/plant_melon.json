@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:melon"
+    },
+    "title": {
+      "text": "Melon"
+    },
+    "description": {
+      "text": "Plant melons."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "melon_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:melon_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "melon_stem"
+    ]
+  ]
+}

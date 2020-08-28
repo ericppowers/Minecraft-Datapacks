@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin"
+    },
+    "title": {
+      "text": "Pumpkin"
+    },
+    "description": {
+      "text": "Plant pumpkin."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pumpkin_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pumpkin_stem"
+    ]
+  ]
+}

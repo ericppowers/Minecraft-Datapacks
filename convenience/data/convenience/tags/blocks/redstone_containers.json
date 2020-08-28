@@ -3,8 +3,6 @@
     "values": [
       "minecraft:trapped_chest",
       "minecraft:hopper",
-      "minecraft:chest_minecart",
-      "minecraft:hopper_minecart",
       "minecraft:dropper",
       "minecraft:dispenser"
     ]

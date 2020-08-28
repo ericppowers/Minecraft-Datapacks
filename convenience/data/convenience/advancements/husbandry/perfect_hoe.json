@@ -1,0 +1,105 @@
+{
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "text": "Truly Serious"
+    },
+    "description": {
+      "text": "Craft a perfect hoe for farming."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "silk_hoe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:netherite_hoe",
+          "enchantments": [
+            {
+              "enchantment": "minecraft:mending",
+              "levels": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": {
+                "min": 5,
+                "max": 5
+              }
+            },
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": {
+                "min": 3,
+                "max": 3
+              }
+            },
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+          }
+        }
+      },
+    "fortune_hoe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:netherite_hoe",
+          "enchantments": [
+            {
+              "enchantment": "minecraft:mending",
+              "levels": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": {
+                "min": 5,
+                "max": 5
+              }
+            },
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": {
+                "min": 3,
+                "max": 3
+              }
+            },
+            {
+              "enchantment": "minecraft:fortune_touch",
+              "levels": {
+                "min": 3,
+                "max": 3
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silk_hoe",
+      "fortune_hoe"
+    ]
+  ]
+}

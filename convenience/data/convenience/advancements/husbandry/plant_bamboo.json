@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": {
+      "text": "Bamboo"
+    },
+    "description": {
+      "text": "Plant bamboo."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bamboo_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bamboo_sapling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bamboo_sapling"
+    ]
+  ]
+}

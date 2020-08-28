@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "convenience:anvil"
+    ]
+  },
+  "criteria": {
+    "has_chipped_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chipped_anvil"
+          }
+        ]
+      }
+    },
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:anvil"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:anvil"
+      }
+    },
+    "has_the_other_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "convenience:anvil"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chipped_anvil",
+      "has_anvil",
+      "has_the_recipe",
+      "has_the_other_recipe"
+    ]
+  ]
+}

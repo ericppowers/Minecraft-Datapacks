@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "convenience:quartz_from_chiseled_quartz"
+      ]
+    },
+    "criteria": {
+      "has_chiseled_quartz": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:chiseled_quartz"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "convenience:quartz_from_chiseled_quartz"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_chiseled_quartz",
+        "has_the_recipe"
+      ]
+    ]
+  }

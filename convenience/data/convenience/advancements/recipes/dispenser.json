@@ -1,0 +1,65 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "convenience:dispenser_from_dropper_2",
+        "convenience:dispenser_from_dropper"
+      ]
+    },
+    "criteria": {
+      "has_dispenser": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dispenser"
+            }
+          ]
+        }
+      },
+      "has_dropper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dropper"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "convenience:dispenser_from_dropper"
+        }
+      },
+      "has_the_other_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "convenience:dispenser_from_dropper_2"
+        }
+      },
+      "has_the_third_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:dispenser"
+        }
+      },
+      "has_the_fourth_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:dropper"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_dispenser",
+        "has_dropper",
+        "has_the_recipe",
+        "has_the_other_recipe",
+        "has_the_third_recipe",
+        "has_the_fourth_recipe"
+      ]
+    ]
+  }
